@@ -94,6 +94,7 @@
             PlaceAmounttextBox.Name = "PlaceAmounttextBox";
             PlaceAmounttextBox.Size = new Size(208, 35);
             PlaceAmounttextBox.TabIndex = 26;
+            PlaceAmounttextBox.Text = "0";
             // 
             // PlaceAmountlabel
             // 
@@ -112,6 +113,7 @@
             PrizePercentagetextBox.Name = "PrizePercentagetextBox";
             PrizePercentagetextBox.Size = new Size(208, 35);
             PrizePercentagetextBox.TabIndex = 28;
+            PrizePercentagetextBox.Text = "0";
             // 
             // PrizePercentagelabel
             // 
@@ -148,6 +150,7 @@
             CreatePrizebutton.TabIndex = 30;
             CreatePrizebutton.Text = "Prize Button";
             CreatePrizebutton.UseVisualStyleBackColor = true;
+            CreatePrizebutton.Click += CreatePrizebutton_Click;
             // 
             // CreatePrizeForm
             // 
