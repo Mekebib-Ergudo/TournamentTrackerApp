@@ -52,7 +52,7 @@
             CreatetournamentNamelabel.AutoSize = true;
             CreatetournamentNamelabel.Font = new Font("Segoe UI Light", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             CreatetournamentNamelabel.ForeColor = SystemColors.Highlight;
-            CreatetournamentNamelabel.Location = new Point(12, 18);
+            CreatetournamentNamelabel.Location = new Point(287, 9);
             CreatetournamentNamelabel.Name = "CreatetournamentNamelabel";
             CreatetournamentNamelabel.Size = new Size(317, 50);
             CreatetournamentNamelabel.TabIndex = 1;
