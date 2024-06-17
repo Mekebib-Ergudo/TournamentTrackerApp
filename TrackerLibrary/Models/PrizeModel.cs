@@ -1,4 +1,4 @@
-﻿namespace TrackerLibrary;
+﻿namespace TrackerLibrary.Models;
 public class PrizeModel
 {
     public int Id { get; set; }

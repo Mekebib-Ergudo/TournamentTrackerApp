@@ -1,5 +1,8 @@
-﻿namespace TrackerLibrary;
-public class TextConnector : IDataConnection
+﻿using TrackerLibrary.Models;
+
+namespace TrackerLibrary.DataAccess;
+
+public class SlqConnector : IDataConnection
 {
     public PrizeModel CreatePrize(PrizeModel prizeModel)
     {
